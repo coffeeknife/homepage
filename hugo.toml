@@ -3,3 +3,29 @@ languageCode = 'en-us'
 title = "coffeeknife@nekoweb.org~$"
 
 theme='robin-theme'
+
+[menus]
+  [[menus.main]]
+    name='tech'
+    pageRef='/tech'
+    weight=10
+  [[menus.main]]
+    name='crafts'
+    pageRef='/crafts'
+    weight=20
+  [[menus.main]]
+    name='music'
+    pageRef='/music'
+    weight=30
+  [[menus.main]]
+    name='gaming'
+    pageRef='/gaming'
+    weight=40
+  [[menus.main]]
+    name='about'
+    pageRef='/about'
+    weight=50
+  [[menus.main]]
+    name='blog'
+    pageRef='/blog'
+    weight=60
