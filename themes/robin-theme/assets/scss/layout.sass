@@ -1,0 +1,92 @@
+@use 'sass:math'
+
+$width: 1920px //
+
+$content: ($width * 0.6) + 20 // 60% of standard width
+$body: $width * 0.4
+$margin: $width * 0.2 // 20% of standard width
+$col: $width * 0.1
+
+$darkpurple: #3B2650
+$purple: #5C3B7D
+$offwhite: #F2DDEE
+
+html
+  height: 100%
+  background: url("/bg.png") black
+
+body
+  width: $content
+  border: 10px solid $darkpurple
+  min-height: 100%
+  position: absolute
+  left: $margin
+  background: black
+  color: $offwhite
+
+header
+  position: relative
+  height: $col
+  background: black
+  padding-top: 20px
+  padding-left: 20px
+  a
+    color: $offwhite
+    font-size: 350%
+    font-family: monospace
+    text-decoration: none
+    font-weight: bold
+
+#content
+  position: absolute
+  width: 100%
+  top: $col
+  bottom: $col / 4
+  border-top: 10px solid $darkpurple
+  border-bottom: 10px solid $darkpurple
+
+aside
+  width: $col
+  height: 100%
+  position: absolute
+  background: black
+
+aside.sidebar-left
+  left: 0
+  border-right: 10px solid $darkpurple
+
+aside.sidebar-right
+  right: 0
+  border-left: 10px solid $darkpurple
+
+main
+  position: absolute
+  height: 100%
+  width: $body
+  left: $col
+
+footer
+  height: $col / 4
+  background: black
+  position: absolute
+  width: 100%
+  bottom: 0px
+
+nav
+  ul
+    display: block
+    position: absolute
+    right: 0
+    bottom: 0
+    padding: 10px
+    li
+      display: inline-block
+      padding: 5px
+      a
+        text-decoration: none
+        color: $offwhite
+        font-family: "Courier New", monospace
+        font-size: 150%
+      a:hover
+        background: $offwhite
+        color: $darkpurple

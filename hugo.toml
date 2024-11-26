@@ -1,6 +1,6 @@
 baseURL = 'https://coffeeknife.nekoweb.org/'
 languageCode = 'en-us'
-title = "coffeeknife@nekoweb.org~$"
+title = "coffeeknife@nekoweb.org:~$"
 
 theme='robin-theme'
 

@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-US'
 title = 'My New Hugo Site'
 
+assetDir = 'assets'
+
 [module]
   [module.hugoVersion]
     extended = false
