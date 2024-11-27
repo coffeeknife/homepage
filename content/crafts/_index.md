@@ -1,4 +1,7 @@
 ---
 title: Craft Stuff
 ---
-blah
+
+Under construction.
+
+{{<image "stickers/ena_thissucks.png">}}

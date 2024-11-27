@@ -1,4 +1,7 @@
 ---
 title: Tech Setup
 ---
-blah blah test
+
+Under construction.
+
+{{<image "stickers/ena_thissucks.png">}}
