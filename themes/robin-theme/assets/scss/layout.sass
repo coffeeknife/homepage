@@ -2,10 +2,13 @@
 
 $width: 1920px //
 
-$content: ($width * 0.6) + 20 // 60% of standard width
-$body: $width * 0.4
-$margin: $width * 0.2 // 20% of standard width
+$content: 65vw // 60% of standard width
+$body: 40vw
 $col: $width * 0.1
+
+$fg: #abb2bf
+$bg: #010101
+$lightgray: #888888
 
 $darkpurple: #3B2650
 $purple: #5C3B7D
@@ -17,22 +20,53 @@ html
 
 body
   width: $content
+  min-width: 800px
   border: 10px solid $darkpurple
   min-height: 100%
+  font-family: monospace
   position: absolute
-  left: $margin
-  background: black
-  color: $offwhite
+  left: 0
+  right: 0
+  margin: 0 auto
+  background: $bg
+  color: $fg
+
+body#home
+  height: 50vh
+  width: 50vw
+  min-height: 200px 
+  margin: auto auto auto auto
+  top: 0
+  bottom: 0
+  text-align: center
+  padding: 50px 0
+
+@keyframes cursor-blink
+  0%
+    opacity: 0
 
 header
   position: relative
-  height: $col
-  background: black
+  height: 150px
+  background: $bg
   padding-top: 20px
   padding-left: 20px
+  p
+    color: $lightgray
+  h1
+    padding-top: 5px
+  h1::after
+    content: ""
+    margin-bottom: -4px
+    margin-left: 10px
+    width: 1.5em
+    height: 3em
+    background: $fg
+    display: inline-block
+    animation: cursor-blink 1s steps(2) infinite
   a
-    color: $offwhite
-    font-size: 350%
+    color: $fg
+    font-size: 3em
     font-family: monospace
     text-decoration: none
     font-weight: bold
@@ -40,7 +74,7 @@ header
 #content
   position: absolute
   width: 100%
-  top: $col
+  top: 150px
   bottom: $col / 4
   border-top: 10px solid $darkpurple
   border-bottom: 10px solid $darkpurple
@@ -49,7 +83,7 @@ aside
   width: $col
   height: 100%
   position: absolute
-  background: black
+  background: $bg
 
 aside.sidebar-left
   left: 0
@@ -67,10 +101,16 @@ main
 
 footer
   height: $col / 4
-  background: black
   position: absolute
   width: 100%
   bottom: 0px
+  padding: $col / 6
+  text-align: center
+
+#home footer
+  position: relative
+  padding: 0
+  margin: 20px
 
 nav
   ul
@@ -84,9 +124,14 @@ nav
       padding: 5px
       a
         text-decoration: none
-        color: $offwhite
+        color: $fg
         font-family: "Courier New", monospace
-        font-size: 150%
+        font-size: 1.2em
       a:hover
-        background: $offwhite
-        color: $darkpurple
+        background: $fg
+        color: $bg
+
+#home nav ul
+  left: 0
+  right: 0
+  margin: 0 auto
