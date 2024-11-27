@@ -9,10 +9,10 @@
   </header>
   <div id="content">
     <aside class="sidebar-left">
-      <h2>left sidebar</h2>
+      {{ partial "left-sidebar.html" . }}
     </aside>
     <aside class="sidebar-right">
-      <h2>right sidebar</h2>
+      {{ partial "right-sidebar.html" . }}
     </aside>
     <main>
       {{ block "main" . }}{{ end }}

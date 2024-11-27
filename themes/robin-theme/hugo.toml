@@ -4,6 +4,9 @@ title = 'My New Hugo Site'
 
 assetDir = 'assets'
 
+[params]
+nowPlaying = 'p6snD1650ck' # youtube video id
+
 [module]
   [module.hugoVersion]
     extended = false

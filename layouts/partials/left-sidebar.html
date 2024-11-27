@@ -1,0 +1,20 @@
+<h2>stats</h2>
+<ul>
+    <li id="created"></li>
+    <li id="updated"></li>
+    <li id="visitors"></li>
+    <li id="followers"></li>
+</ul>
+<p><a href="maxpixels.moe" target="_blank">script credit</a></p>
+<h2>now playing</h2>
+<video
+  id="vid1"
+  class="video-js vjs-theme-forest vjs-fluid"
+  controls
+  data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtube.com/watch?v={{ with .Site.Params.nowPlaying }}{{ . }}{{ end }}"}], "youtube": { "customVars": { "wmode": "transparent" } } }'
+>
+</video>
+<h2>sites</h2>
+<div class="badges">
+    {{ partial "sites.html" . }}
+</div>
