@@ -29,3 +29,19 @@ theme='robin-theme'
     name='blog'
     pageRef='/blog'
     weight=60
+
+[[params.social]]
+  key = 0
+  name = "github"
+  url = "https://github.com/coffeeknife"
+  target = "_blank"
+  icon = "fa-brands fa-github"
+  aria = "GitHub Profile"
+
+[[params.social]]
+  key = 1
+  name = "bluesky"
+  url = "https://coffeeknife.bsky.social/"
+  icon = "fa-brands fa-bluesky"
+  target = "_blank"
+  aria = "Bluesky Profile"

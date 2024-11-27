@@ -18,6 +18,14 @@ html
   height: 100%
   background: url("/bg.png") black
 
+body a[href]
+  color: $purple
+
+a[href]:hover
+  text-decoration: none
+  color: $bg
+  background-color: $fg
+
 body
   width: $content
   min-width: 800px
@@ -34,7 +42,7 @@ body
 body#home
   height: 50vh
   width: 50vw
-  min-height: 200px 
+  min-height: 300px 
   margin: auto auto auto auto
   top: 0
   bottom: 0
@@ -55,6 +63,13 @@ header
     color: $lightgray
   h1
     padding-top: 5px
+    a[href], a[href]:hover
+      color: $fg
+      font-size: 3em
+      font-family: monospace
+      text-decoration: none
+      background: none
+      font-weight: bold
   h1::after
     content: ""
     margin-bottom: -4px
@@ -64,12 +79,6 @@ header
     background: $fg
     display: inline-block
     animation: cursor-blink 1s steps(2) infinite
-  a
-    color: $fg
-    font-size: 3em
-    font-family: monospace
-    text-decoration: none
-    font-weight: bold
 
 #content
   position: absolute
@@ -102,10 +111,16 @@ main
 footer
   height: $col / 4
   position: absolute
-  width: 100%
+  marign: 0 auto
+  left: 0
+  right: 0
   bottom: 0px
-  padding: $col / 6
   text-align: center
+  display: flex
+  justify-content: center
+  flex-direction: row
+  align-items: center
+  gap: 20px
 
 #home footer
   position: relative
@@ -122,7 +137,7 @@ nav
     li
       display: inline-block
       padding: 5px
-      a
+      a[href]
         text-decoration: none
         color: $fg
         font-family: "Courier New", monospace
@@ -135,3 +150,6 @@ nav
   left: 0
   right: 0
   margin: 0 auto
+
+footer .socials
+  font-size: 150%
