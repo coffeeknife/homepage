@@ -2,9 +2,9 @@
 
 $width: 1920px //
 
-$content: 65vw // 60% of standard width
+$content: 70vw // 60% of standard width
 $body: 40vw
-$col: $width * 0.1
+$col: 15vw
 
 $fg: #abb2bf
 $bg: #010101
@@ -39,6 +39,12 @@ body
   background: $bg
   color: $fg
 
+@keyframes fade-in
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
 body#home
   height: 50vh
   width: 50vw
@@ -48,6 +54,9 @@ body#home
   bottom: 0
   text-align: center
   padding: 50px 0
+  animation: fade-in ease 1s
+  animation-iteration-count: 1
+  animation-fill-mode: forwards
 
 @keyframes cursor-blink
   0%
@@ -85,28 +94,42 @@ header
   width: 100%
   top: 150px
   bottom: $col / 4
-  border-top: 10px solid $darkpurple
-  border-bottom: 10px solid $darkpurple
+  font-size: 125%
 
 aside
   width: $col
   height: 100%
   position: absolute
-  background: $bg
+  padding: 20px
 
 aside.sidebar-left
   left: 0
-  border-right: 10px solid $darkpurple
 
 aside.sidebar-right
   right: 0
-  border-left: 10px solid $darkpurple
 
 main
   position: absolute
   height: 100%
-  width: $body
   left: $col
+  right: $col
+  padding: 20px
+
+#content h1, #content h2, #content h3
+  font-weight: bold
+  color: $bg
+  background-color: $fg
+  padding: 1px
+  margin-bottom: 1em
+
+#content h1::before
+  content: "> "
+
+#content h2::before
+  content: ">> "
+
+#content h3::before
+  content: ">>> "
 
 footer
   height: $col / 4
