@@ -11,12 +11,12 @@
     <aside class="sidebar-left">
       {{ partial "left-sidebar.html" . }}
     </aside>
-    <aside class="sidebar-right">
-      {{ partial "right-sidebar.html" . }}
-    </aside>
     <main>
       {{ block "main" . }}{{ end }}
     </main>
+    <aside class="sidebar-right">
+      {{ partial "right-sidebar.html" . }}
+    </aside>
   </div>
   <footer>
     {{ partial "footer.html" . }}

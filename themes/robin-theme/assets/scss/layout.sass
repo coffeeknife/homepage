@@ -27,14 +27,14 @@ a[href]:hover
   background-color: $fg
 
 body
+  position: relative
   width: $content
   min-width: 800px
   border: 10px solid $darkpurple
   min-height: 100%
   font-family: monospace
-  position: absolute
-  left: 0
-  right: 0
+  top: 0
+  bottom: 0
   margin: 0 auto
   background: $bg
   color: $fg
@@ -46,11 +46,14 @@ body
     opacity: 1
 
 body#home
+  position: absolute
   height: 50vh
   width: 50vw
   min-height: 300px 
   margin: auto auto auto auto
   top: 0
+  left: 0
+  right: 0
   bottom: 0
   text-align: center
   padding: 50px 0
@@ -95,17 +98,17 @@ header
   margin-bottom: 0.75em
 
 #content
-  position: absolute
   width: 100%
   top: 150px
-  bottom: $col / 4
   font-size: 125%
+  display: flex
+  flex-direction: row
+  margin-bottom: $col / 4
 
 aside
   width: $col
   min-width: 216px
   height: 100%
-  position: absolute
   padding: 20px
 
 aside.sidebar-left
@@ -119,11 +122,13 @@ aside p, aside li
   margin-bottom: 0.75em
 
 main
-  position: absolute
-  height: 100%
-  left: $col
-  right: $col
+  min-height: 100%
   padding: 20px
+  flex-grow: 1
+
+main p
+  margin-bottom: 0.75em
+  line-height: 1.25em
 
 #content h1, #content h2, #content h3
   font-weight: bold
@@ -142,12 +147,12 @@ main
   content: ">>> "
 
 footer
-  height: $col / 4
   position: absolute
-  marign: 0 auto
+  bottom: 0
   left: 0
   right: 0
-  bottom: 0px
+  height: $col / 4
+  marign: 0 auto
   text-align: center
   display: flex
   justify-content: center
