@@ -1,4 +1,7 @@
 <a href="https://bang1338.nekoweb.org"><img src="https://bang1338.nekoweb.org/bang1338.gif" style="width: 88px;"></a>
+{{ with resources.Get "orionoverdrive.png" }}
+  <a href="https://orion-overdrive.neocities.org/"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt=""></a>
+{{ end }}
 <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button7.gif"></a><!-- button by avas.space -->
 {{ with resources.Get "badges/hugo.webp" }}
   <a href="https://gohugo.io/"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt=""></a>
