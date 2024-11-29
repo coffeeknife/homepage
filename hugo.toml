@@ -8,7 +8,7 @@ theme='robin-theme'
   [[menus.main]]
     name='tech'
     pageRef='/tech'
-    weight=10
+    weight=50
   [[menus.main]]
     name='crafts'
     pageRef='/crafts'
@@ -24,7 +24,7 @@ theme='robin-theme'
   [[menus.main]]
     name='about'
     pageRef='/about'
-    weight=50
+    weight=10
   [[menus.main]]
     name='blog'
     pageRef='/blog'

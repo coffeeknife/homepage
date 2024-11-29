@@ -15,3 +15,15 @@ Recently I've been playing Bugsnax, Subnautica and Terraria. I also play Final F
 
 This site is written in [Hugo](https://gohugo.io), which lets me do lots of templating and automation while still keeping the final product
 in pure HTML. The theme is custom and specific to this site. The source is available [here](https://github.com/coffeeknife/homepage).
+
+# Add my badge!
+
+If you want to link to my site, here's a button you can use for it!
+
+{{<image "badges/coffeeknife.png">}}
+
+{{<highlight html "lineNos=true">}}
+<a href="https://coffeeknife.nekoweb.org">
+    <img src="http://coffeeknife.nekoweb.org/badges/coffeeknife.png" alt="A button with a small purple coffee cup and the text 'coffeknife.nekoweb.org'">
+</a>
+{{</highlight>}}
