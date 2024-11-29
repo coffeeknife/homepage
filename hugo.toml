@@ -29,6 +29,15 @@ theme='robin-theme'
     name='blog'
     pageRef='/blog'
     weight=60
+  [[menus.main]]
+    name='guestbook'
+    pageRef='/guestbook'
+    weight=70
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe=true
 
 [[params.social]]
   key = 0
