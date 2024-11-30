@@ -5,11 +5,23 @@
     <li id="visitors"></li>
     <li id="followers"></li>
 </ul>
+{{- with resources.Get "js/nekoweb-stats.js" }}
+  {{- if eq hugo.Environment "development" }}
+    {{- with . | js.Build }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{- end }}
+  {{- else }}
+    {{- $opts := dict "minify" true }}
+    {{- with . | js.Build $opts | fingerprint }}
+      <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+    {{- end }}
+  {{- end }}
+{{- end }}
 <p><a href="maxpixels.moe" target="_blank">script credit</a></p>
 <h2>now playing</h2>
-<turbo-frame id="now-playing" target="_top" data-turbo-permanent>
-    <iframe width="352" height="198" style="scale: 50%; margin: -49px -88px" src="https://www.youtube.com/embed/p6snD1650ck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</turbo-frame>
+<div id="now-playing" data-turbo-permanent>
+</div>
+<script src="https://www.youtube.com/iframe_api" data-turbo-permanent></script>
 <h2>sites</h2>
 <div class="badges">
     {{ partial "sites.html" . }}
