@@ -1,5 +1,6 @@
 ---
 title: Craft Stuff
+menus: crafts
 date: 2024-11-26T17:37:00-06:00
 ---
 

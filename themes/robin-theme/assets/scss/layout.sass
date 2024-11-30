@@ -171,7 +171,7 @@ footer
   padding: 0
   margin: 20px
 
-nav
+header nav
   ul
     display: block
     position: absolute
@@ -181,6 +181,8 @@ nav
     li
       display: inline-block
       padding: 5px
+      a::before
+        content: "~/"
       a[href]
         text-decoration: none
         color: $fg
@@ -189,6 +191,19 @@ nav
       a:hover
         background: $fg
         color: $bg
+
+aside nav
+  font-weight: bold
+  text-align: center
+  a[href]
+    text-decoration: none
+    color: $fg
+  a[aria-current]::before
+    content: ">> "
+  a[aria-current]::after
+    content: " <<"
+  li::before
+    content: ""
 
 #home nav ul
   left: 0
