@@ -7,13 +7,7 @@
 </ul>
 <p><a href="maxpixels.moe" target="_blank">script credit</a></p>
 <h2>now playing</h2>
-<video
-  id="vid1"
-  class="video-js vjs-theme-forest vjs-fluid"
-  controls
-  data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtube.com/watch?v={{ with .Site.Params.nowPlaying }}{{ . }}{{ end }}"}], "youtube": { "customVars": { "wmode": "transparent" } } }'
->
-</video>
+<iframe width="352" height="198" style="scale: 50%; margin: -49px -88px" src="https://www.youtube.com/embed/p6snD1650ck" title="&quot;ÅMARA(大未来電脳)&quot;  feat.HatsuneMiku+KAITO  /  sasakure.‌UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2>sites</h2>
 <div class="badges">
     {{ partial "sites.html" . }}
