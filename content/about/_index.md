@@ -2,6 +2,8 @@
 title: About @coffeeknife
 menus: about
 date: 2024-11-26T17:37:00-06:00
+params:
+    display_posts: false
 ---
 
 Hello! I'm Robin, a married butch in my 20s based in Minnesota. I'm a tech nerd, work in the IT sector and

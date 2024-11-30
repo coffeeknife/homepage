@@ -6,6 +6,7 @@ assetDir = 'assets'
 
 [params]
 nowPlaying = 'p6snD1650ck' # youtube video id
+display_posts = true
 
 [module]
   [module.hugoVersion]
