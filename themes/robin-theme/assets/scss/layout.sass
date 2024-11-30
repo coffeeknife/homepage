@@ -198,9 +198,9 @@ aside nav
   a[href]
     text-decoration: none
     color: $fg
-  a[aria-current]::before
+  a[aria-current='page']::before
     content: ">> "
-  a[aria-current]::after
+  a[aria-current='page']::after
     content: " <<"
   li::before
     content: ""
@@ -279,3 +279,16 @@ main iframe
   margin: 0 auto
   width: $body
   height: 80vh
+
+.gallery
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  gap: 10px
+  a:hover
+    background: none
+  img
+    transition: transform .2s
+  img:hover
+    transform: scale(1.5)
