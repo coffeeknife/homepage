@@ -54,3 +54,10 @@ theme='robin-theme'
   icon = "fa-brands fa-bluesky"
   target = "_blank"
   aria = "Bluesky Profile"
+
+[[params.social]]
+  key = 2
+  name = "email"
+  url = "mailto:coffeeknife@proton.me"
+  icon = "fa-envelope"
+  aria = "Email Address"
