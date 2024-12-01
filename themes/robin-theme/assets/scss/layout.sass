@@ -114,18 +114,20 @@ aside
   flex-direction: column
   align-content: center
   justify-content: center
-  li::before
-    content: "★ "
   li
     em
       font-weight: bold
+
+#content li::before
+    content: "★ "
 
 aside.sidebar-left
   left: 0
 
 aside.sidebar-right
   right: 0
-
+  li::before
+    content: "" !important
 aside p, aside li
   font-size: 80%
   margin-bottom: 0.75em
@@ -297,3 +299,13 @@ main iframe
     transition: transform .2s
   img:hover
     transform: scale(1.5)
+
+main
+  ul
+    margin-left: 0.5em
+    line-height: 120% 
+  li
+    margin-left: 1em
+    margin-bottom: 5px
+  li::before
+    margin-left: -1.5em
