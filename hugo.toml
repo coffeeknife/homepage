@@ -61,3 +61,10 @@ theme='robin-theme'
   url = "mailto:coffeeknife@proton.me"
   icon = "fa-solid fa-envelope"
   aria = "Email Address"
+
+[[params.social]]
+  key = 3
+  name = "matrix"
+  url = "matrix:@coffeeknife:unredacted.org"
+  icon = "fa-solid fa-comment"
+  aria = "Matrix Account"
