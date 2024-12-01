@@ -15,3 +15,6 @@ It aims to capture the vibes of the old internet (heavily customized homepages w
 - recreate album grid from my old neocities, now with a click action to start playing my favorite song off each album
 - make tech setup and homelab pages, maybe figure out how to expose stats or something fun
 - make script for quickly generating new (blank) blog posts, start blogging on here
+
+# Page Ideas
+- firefox extensions/config
