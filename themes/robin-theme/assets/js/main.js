@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   placePlayer();
 
-  document.addEventListener("turbo:load", () => {
+  document.addEventListener("turbo:morph", () => {
     placePlayer();
   });
 
