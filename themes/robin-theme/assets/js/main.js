@@ -45,6 +45,8 @@ $(document).ready(function () {
     $("#player").css({top: destination.top, left: destination.left});
   }
 
+  placePlayer();
+
   document.addEventListener("turbo:load", () => {
     placePlayer();
   });
