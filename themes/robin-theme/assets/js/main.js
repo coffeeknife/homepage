@@ -37,6 +37,8 @@ window.Stimulus = Application.start();
 // explicitly register the Controllers on Stimulus startup.
 Stimulus.register( "player-template", PlayerTemplateController );
 
+let placePlayer;
+
 $(document).ready(function () {
 
   function placePlayer() {
@@ -47,12 +49,12 @@ $(document).ready(function () {
 
   placePlayer();
 
-  document.addEventListener("turbo:morph", () => {
-    console.log('turbo morphing');
-    placePlayer();
-  });
-
   $(window).resize(function() {
     placePlayer();
   });
+});
+
+document.addEventListener("turbo:morph", () => {
+  console.log('turbo morphing');
+  placePlayer();
 });
