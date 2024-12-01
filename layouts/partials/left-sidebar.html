@@ -17,11 +17,20 @@
     {{- end }}
   {{- end }}
 {{- end }}
-<p><a href="maxpixels.moe" target="_blank">script credit</a></p>
+<p><a href="https://maxpixels.moe" target="_blank">script credit</a></p>
 <h2>now playing</h2>
-<div id="now-playing" data-turbo-permanent>
-</div>
-<script src="https://www.youtube.com/iframe_api" data-turbo-permanent></script>
+<div id="youtube-bg"></div>
+<template data-controller="player-template">
+  <turbo-frame id="player" class="player">
+    <!---
+      This Turbo-Frame is inert and cannot be targeted until the
+      template is cloned and the resultant element is injected into the
+      document.
+    --->
+    <lite-youtube videoid="{{ .Site.Params.nowPlaying }}"
+    params="" style="width: 176px; height: 99px" data-turbo-frame="player"></lite-youtube>
+  </turbo-frame>
+</template>
 <h2>sites</h2>
 <div class="badges">
     {{ partial "sites.html" . }}
