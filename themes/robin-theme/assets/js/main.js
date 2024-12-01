@@ -48,6 +48,7 @@ $(document).ready(function () {
   placePlayer();
 
   document.addEventListener("turbo:morph", () => {
+    console.log('turbo morphing');
     placePlayer();
   });
 
