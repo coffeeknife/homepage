@@ -300,12 +300,17 @@ main iframe
   img:hover
     transform: scale(1.5)
 
-main
+#content main
   ul
-    margin-left: 0.5em
     line-height: 120% 
-  li
-    margin-left: 1em
-    margin-bottom: 5px
-  li::before
-    margin-left: -1.5em
+    list-style-type: circle
+    list-style-position: outside
+    margin-left: 20px
+    li
+      margin-top: 5px
+      margin-bottom: 10px
+    li::before
+      content: "" !important
+
+strong
+  font-weight: bold
