@@ -61,6 +61,6 @@ theme='robin-theme'
 [[params.social]]
   key = 3
   name = "matrix"
-  url = "matrix:@coffeeknife:unredacted.org"
+  url = "matrix:@coffeeknife:matrix.org"
   icon = "fa-solid fa-comment"
   aria = "Matrix Account"
