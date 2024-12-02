@@ -2,6 +2,7 @@
 title: 'Using: Hardware'
 menus: tech
 date: 2024-11-26T17:37:00-06:00
+weight: 10
 ---
 
 This is a list of my personal/everyday devices. My homelab is another beast and will get its own page.
