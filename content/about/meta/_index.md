@@ -24,7 +24,7 @@ Repo at <a href="https://github.com/coffeeknife/homepage"><i class="fa-brands fa
 
 - mobile css (this page is a nightmare on mobile rn)
 - add my own player controls to the youtube embed
-- rearrange sections; have general media tab instead of separate music/gaming/etc
+- ~~rearrange sections; have general media tab instead of separate music/gaming/etc~~ done
 - recreate album grid from my old neocities, now with a click action to start playing my favorite song off each album
 - make tech setup and homelab pages, maybe figure out how to expose stats or something fun
 - make script for quickly generating new (blank) blog posts, start blogging on here
