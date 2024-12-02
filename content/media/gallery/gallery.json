@@ -1,0 +1,120 @@
+{
+    "spritesheet": {
+        "file": "css_sprites.png",
+        "sprite_width": 100
+    },
+    "images": [
+        {
+            "alt": "Starset - TokSik",
+            "link": "javascript:updatePlayer('Mec-1kP9lC0')",
+            "pos": 18
+        },
+        {
+            "alt": "Starset - DIVISIONS",
+            "link": "https://musicbrainz.org/release-group/083628f7-8980-48f5-b4fd-e0cffcda6de6",
+            "pos": 2
+        },
+        {
+            "alt": "Sasakure.UK - ÅMARA (The Great Intelligence)",
+            "link": "https://musicbrainz.org/release/74c755cf-d47a-45c5-987c-16bf3c174a6e",
+            "pos": 0
+        },
+        {
+            "alt": "Muse - Black Holes and Revelations",
+            "link": "https://musicbrainz.org/release-group/af2e8e23-e9c3-4e67-8ad8-66387c5898fd",
+            "pos": 1
+        },
+        {
+            "alt": "ATLUS Sound Team - Persona 5 Royal - The Soundtrack",
+            "link": "https://musicbrainz.org/release-group/1a86b784-f6a8-4602-abe3-929ebc9c5c08",
+            "pos": 12
+        },
+        {
+            "alt": "MNQN - MNQN",
+            "link": "https://musicbrainz.org/release/21da26eb-f758-49be-8b77-37496a434dd5",
+            "pos": 9
+        },
+        {
+            "alt": "Nightcord at 25:00 - Samsa/kitty",
+            "link": "https://musicbrainz.org/release-group/440a89c3-66a6-40bd-bae2-814b1ea91a57",
+            "file": "https://archive.org/download/mbid-927398f3-64eb-4f45-9e9a-8ad298cd49d1/mbid-927398f3-64eb-4f45-9e9a-8ad298cd49d1-37700340391_thumb250.jpg",
+            "pos": 8
+        },
+        {
+            "alt": "Masayoshi Soken - ENDWALKER: FINAL FANTASY XIV Original Soundtrack",
+            "link": "https://musicbrainz.org/release/06b71e4c-bb29-4961-8a69-da2d995a2b5b",
+            "file": "https://fileartarchive.org/release-group/8c65c54c-1a43-42dc-8471-17dfb5c9e08e/front",
+            "pos": 3
+        },
+        {
+            "alt": "Mystery Skulls - Forever",
+            "link": "https://musicbrainz.org/release/ac6b4b5c-da51-4ac2-8a01-cb483d462507",
+            "pos": 5
+        },
+        {
+            "alt": "I DON'T KNOW HOW BUT THEY FOUND ME - RAZZMATAZZ",
+            "link": "https://musicbrainz.org/release/b9dba591-125d-4e52-977f-69e7c17396d7",
+            "pos": 15
+        },
+        {
+            "alt": "Hiroyuki Sawano - Promare (Original Soundtrack)",
+            "link": "https://musicbrainz.org/release/893c637d-ef9e-4920-9109-bb59ff4a24dc",
+            "pos": 14
+        },
+        {
+          "alt": "Starset - Vessels 2.0",
+          "link": "https://musicbrainz.org/release/656472c9-519b-4b4b-b572-3c937dec6cb8",
+          "pos": 19
+        },
+        {
+            "alt": "Joywave - Possession",
+            "link": "https://musicbrainz.org/release/62d59af9-350e-41ed-86c3-3cb9653b90ae",
+            "pos": 13
+        },
+        {
+            "alt": "ITO KANAKO - Fatima",
+            "link": "https://musicbrainz.org/release/bbfdb960-3384-42bc-89a7-c1ea498f1818",
+            "pos": 4
+        },
+        {
+            "alt": "Vivid BAD SQUAD - One Sheep/Retainer Supplanting His Lord",
+            "link": "https://musicbrainz.org/release/fe14caf9-437f-40fa-8739-420a1f3bdf8b",
+            "pos": 11
+        },
+        {
+            "alt": "Muse - Will of the People",
+            "link": "https://musicbrainz.org/release/a6c30a67-de33-4396-8f33-e34ff45028e9",
+            "pos": 20
+        },
+        {
+            "alt": "Tatsuya Kato - TRIGUN STAMPEDE - Original Television Soundtrack 2",
+            "link": "https://musicbrainz.org/release/ffb428ac-834a-4341-aabf-f8ff00ab0084",
+            "pos": 17
+        },
+        {
+            "alt": "Fall Out Boy - So Much (For) Stardust",
+            "link": "https://musicbrainz.org/release/231c0aea-1283-41ba-ac25-1a32351dbfba",
+            "pos": 16
+        },
+        {
+            "alt": "wotaku - Literacy",
+            "link": "https://musicbrainz.org/release-group/05132817-8fe2-495d-9c44-851e2534868b",
+            "pos": 6
+        },
+        {
+            "alt": "Linkin Park - Living Things",
+            "link": "https://musicbrainz.org/release/6c48c82c-b7df-4b0b-987d-666ec8271afb",
+            "pos": 7
+        },
+        {
+            "alt": "I DON'T KNOW HOW BUT THEY FOUND ME - GLOOM DIVISION",
+            "link": "https://musicbrainz.org/release/a44befa7-e6d0-49ca-a9a3-cf8949f8c3ea",
+            "pos": 21
+        },
+        {
+            "alt": "PinocchioP - Obscure Questions",
+            "link": "https://musicbrainz.org/release/26cbd030-b569-4db0-b6e5-13aec3d4ea16",
+            "pos": 10
+        }
+    ]
+}

@@ -1,9 +1,14 @@
 ---
-title: Media
+title: Music Taste
 menus: media
 date: 2024-11-26T17:37:00-06:00
 ---
+Once I can hook up Apple Music to LastFM properly, i'll stick a widget for here.
 
-Under construction.
+In the meantime, THE ALBUM GRID!
 
-{{<image "stickers/ena_thissucks.png">}}
+## album grid
+
+Click on an album to hear my favorite track! (not yet working lol)
+
+{{<gallery>}}

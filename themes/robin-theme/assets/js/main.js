@@ -58,3 +58,9 @@ document.addEventListener("turbo:morph", () => {
   console.log('turbo morphing');
   placePlayer();
 });
+
+window.updatePlayer = function(vid) {
+	$("#miniplayer").attr("videoid", vid);
+	$("#miniplayer").attr("autoload","");
+	$("#miniplayer").attr("params","autoplay=1");
+}

@@ -1,16 +1,22 @@
 {{ $page := .Page}}
-<div class="gallery">
-    {{ $images := $page.Resources.Get "gallery/gallery.json" | transform.Unmarshal }}
+{{ $images := $page.Resources.Get "gallery/gallery.json" | transform.Unmarshal }}
+{{ $spritesheet := index $images "spritesheet" }}
+    <div class="gallery">
     {{ range $image := (index $images "images") }}
         {{ $path := index $image "file" | printf "gallery/%s" }}
         {{ $alt := index $image "alt" }}
         {{ $link := index $image "link" }}
+        <a href='{{ printf "%s" $link }}'>
         {{ with $img := $page.Resources.Get $path }}
-            <a href="{{ $link }}" target="_blank">
                 <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
-            </a>
+        {{ else with $img := index $spritesheet "file" | printf "gallery/%s" | $page.Resources.Get }}
+            {{ $sprite_width := index $spritesheet "sprite_width" }}
+            {{ $offset := index $image "pos" | cast.ToInt | math.Mul (cast.ToInt $sprite_width) }}
+                <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" width='{{ $sprite_width }}' height="{{ $img.Height }}"
+                    style="object-fit: none; object-position: -{{ $offset }}px 0">
         {{ else }}
             {{ errorf "unable to get page resource %q" $path }}
         {{ end }}
+        </a>
     {{ end }}
 </div>
