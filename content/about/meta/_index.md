@@ -7,7 +7,20 @@ This site is built on [Hugo](https://gohugo.io), a very flexible static site gen
 
 It aims to capture the vibes of the old internet (heavily customized homepages with busy, flashy designs and fun widgets) while still having very quick load times and not hogging your computer's resources.
 
-# Todo
+## last commit
+
+<p id="message">Loading last commit info...</p>
+<script>
+  fetch('https://api.github.com/repos/coffeeknife/homepage/commits?per_page=1')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('message').innerHTML = res[0].commit.author.date + '<br>' + res[0].commit.message
+  })
+</script>
+
+Repo at <a href="https://github.com/coffeeknife/homepage"><i class="fa-brands fa-github"></i> GitHub</a>
+
+# Tod
 
 - mobile css (this page is a nightmare on mobile rn)
 - add my own player controls to the youtube embed
