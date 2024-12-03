@@ -8,3 +8,23 @@ turbo-frame#player {
     position: absolute;
     z-index: 50;
 }
+
+.albums {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    line-height: 100%;
+}
+.albums button {
+    padding: 0;
+    border: none;
+    background: none;
+    margin: 0;
+    border-radius: 0;
+    height: 100px;
+}
+.albums button:hover {
+    cursor: pointer;
+}

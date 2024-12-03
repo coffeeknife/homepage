@@ -11,4 +11,4 @@ In the meantime, THE ALBUM GRID!
 
 Click on an album to hear my favorite track! (not yet working lol)
 
-{{<gallery>}}
+{{<albums>}}
