@@ -9,6 +9,6 @@ In the meantime, THE ALBUM GRID!
 
 ## album grid
 
-Click on an album to hear my favorite track! (not yet working lol)
+Click on an album to hear my favorite track!
 
 {{<albums>}}
