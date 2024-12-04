@@ -12,6 +12,13 @@ Cool programs and services I use every day! Anything with an asterisk (*) is sel
 - **Browser:** [Firefox](https://mozilla.org/firefox) (should probably migrate to [LibreWolf](https://librewolf.net) eventually - it's a fork of Firefox)
 - **Editor:** [VSCodium](https://vscodium.com) - VSCode without tracking junk
 - **VPN:** [Mullvad](https://mullvad.net) - one of the only providers I actually trust to be logless
+- **Chat:** [Vesktop](https://github.com/Vencord/Vesktop) for Discord and [nheko](https://nheko-reborn.github.io/) for matrix
+
+## mobile apps (android)
+- **Launcher/Customization:** [Nova Launcher](https://novalauncher.com/) and [Kustom Suite](https://docs.kustom.rocks/)
+- **Sideloading:** [Obtainium](https://github.com/ImranR98/Obtainium) - auto updates apks from github pages
+- **App Patching:** [ReVanced](https://revanced.app/) - has a shitload of app patches available. love the youtube patch
+- **Discord Client:** [Bunny](https://github.com/bunny-mod/Bunny) - easy to manage and update, nice plugins
 
 ## cloud/sync services
 spoilers: I don't trust the cloud
