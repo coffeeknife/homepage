@@ -1,0 +1,44 @@
+{
+    "images": [
+        {
+            "file": "trigun_stampede.jpg",
+            "link": "trigun",
+            "alt": "Trigun Stampede"
+        },
+        {
+            "file": "p5r.jpg",
+            "link": "p5r",
+            "alt": "Persona 5 Royal"
+        },
+        {
+            "file": "dunmeshi.jpg",
+            "link": "",
+            "alt": "Dungeon Meshi/Delicious in Dungeon"
+        },
+        {
+            "file": "madoka.jpg",
+            "link": "",
+            "alt": "Puella Magi Madoka Magica"
+        },
+        {
+            "file": "infinitytrain.jpg",
+            "link": "",
+            "alt": "Infinity Train"
+        },
+        {
+            "file": "school-live.jpg",
+            "link": "",
+            "alt": "SCHOOL-LIVE!"
+        },
+        {
+            "file": "yukiyuna.jpg",
+            "link": "",
+            "alt": "Yuki Yuna Is A Hero"
+        },
+        {
+            "file": "cavestory.png",
+            "link": "",
+            "alt": "Cave Story"
+        }
+    ]
+}

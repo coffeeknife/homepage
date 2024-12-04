@@ -1,7 +1,11 @@
+{{ $page := .Page }}
 <p class="centered">
 {{ with .Get 0 }}
-    {{ with resources.Get . }}
+{{ with resources.Get . }}
+<img src="{{ .RelPermalink }}">
+{{ end }}
+{{ with $page.Resources.Get . }}
       <img src="{{ .RelPermalink }}">
-    {{ end }}
+{{ end }}
 {{ end }}
 </p>
