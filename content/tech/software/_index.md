@@ -9,10 +9,10 @@ Cool programs and services I use every day! Anything with an asterisk (*) is sel
 ## basics
 - **Operating System:** [Arch Linux](https://archlinux.org/)
     - It's not that hard to install, I promise.
-- **Browser:** [Firefox](https://mozilla.org/firefox) (should probably migrate to [LibreWolf](https://librewolf.net) eventually - it's a fork of Firefox)
+- **Browser:** [LibreWolf] (https://librewolf.net) - Fork of firefox without telemetry
 - **Editor:** [VSCodium](https://vscodium.com) - VSCode without tracking junk
 - **VPN:** [Mullvad](https://mullvad.net) - one of the only providers I actually trust to be logless
-- **Chat:** [Vesktop](https://github.com/Vencord/Vesktop) for Discord and [nheko](https://nheko-reborn.github.io/) for matrix
+- **Chat:** [Legcord](https://github.com/Legcord/Legcord) for Discord and [nheko](https://nheko-reborn.github.io/) for matrix
 
 ## mobile apps (android)
 - **Launcher/Customization:** [Nova Launcher](https://novalauncher.com/) and [Kustom Suite](https://docs.kustom.rocks/)
