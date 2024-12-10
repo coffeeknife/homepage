@@ -9,7 +9,7 @@ Cool programs and services I use every day! Anything with an asterisk (*) is sel
 ## basics
 - **Operating System:** [Arch Linux](https://archlinux.org/)
     - It's not that hard to install, I promise.
-- **Browser:** [LibreWolf] (https://librewolf.net) - Fork of firefox without telemetry
+- **Browser:** [LibreWolf](https://librewolf.net) - Fork of firefox without telemetry
 - **Editor:** [VSCodium](https://vscodium.com) - VSCode without tracking junk
 - **VPN:** [Mullvad](https://mullvad.net) - one of the only providers I actually trust to be logless
 - **Chat:** [Legcord](https://github.com/Legcord/Legcord) for Discord and [nheko](https://nheko-reborn.github.io/) for matrix
