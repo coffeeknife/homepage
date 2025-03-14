@@ -9,14 +9,14 @@
         <button onclick="updatePlayer('{{$vid}}')">
         {{ with $img := $page.Resources.Get $path }}
                 <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
-        {{ else with $img := index $spritesheet "file" | printf "gallery/%s" | $page.Resources.Get }}
+        {{ else }}{{ with $img := index $spritesheet "file" | printf "gallery/%s" | $page.Resources.Get }}
             {{ $sprite_width := index $spritesheet "sprite_width" }}
             {{ $offset := index $image "pos" | cast.ToInt | math.Mul (cast.ToInt $sprite_width) }}
                 <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" width='{{ $sprite_width }}' height="{{ $img.Height }}"
                     style="object-fit: none; object-position: -{{ $offset }}px 0">
         {{ else }}
             {{ errorf "unable to get page resource %q" $path }}
-        {{ end }}
+        {{ end }}{{ end }}
         </button>
     {{ end }}
 </div>
