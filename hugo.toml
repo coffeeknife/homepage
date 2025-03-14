@@ -4,6 +4,11 @@ title = "coffeeknife@nekoweb.org:~$"
 
 theme='robin-theme'
 
+enableGitInfo = true
+
+[frontmatter]
+lastmod = [':git', ':fileModTime']
+
 [menus]
   [[menus.main]]
     name='about'

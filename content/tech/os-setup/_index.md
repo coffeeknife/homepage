@@ -5,6 +5,10 @@ weight: 30
 date: 2024-12-01T20:33:00.000-06:00
 ---
 
+**note: this page is out of date and will be replaced**
+
+(i use gentoo now, so i will have to completely overhaul this)
+
 Things I use to manage/customize my Arch install. (wip)
 
 - **Software Management:** yay/pacman, flatpak, AppImageLauncher

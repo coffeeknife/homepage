@@ -7,18 +7,18 @@ weight: 20
 Cool programs and services I use every day! Anything with an asterisk (*) is self-hosted, running on my homelab.
 
 ## basics
-- **Operating System:** [Arch Linux](https://archlinux.org/)
-    - It's not that hard to install, I promise.
+- **Operating System:** [Gentoo Linux](https://www.gentoo.org/)
+    - It's a pain in the ass to install, but it has the coolest package system I've ever used.
 - **Browser:** [LibreWolf](https://librewolf.net) - Fork of firefox without telemetry
 - **Editor:** [VSCodium](https://vscodium.com) - VSCode without tracking junk
 - **VPN:** [Mullvad](https://mullvad.net) - one of the only providers I actually trust to be logless
-- **Chat:** [Legcord](https://github.com/Legcord/Legcord) for Discord and [nheko](https://nheko-reborn.github.io/) for matrix
+- **Chat:** [Vesktop](https://github.com/Vencord/Vesktop) for Discord and [Cinny](https://cinny.in/) for matrix
 
 ## mobile apps (android)
 - **Launcher/Customization:** [Nova Launcher](https://novalauncher.com/) and [Kustom Suite](https://docs.kustom.rocks/)
 - **Sideloading:** [Obtainium](https://github.com/ImranR98/Obtainium) - auto updates apks from github pages
 - **App Patching:** [ReVanced](https://revanced.app/) - has a shitload of app patches available. love the youtube patch
-- **Discord Client:** [Bunny](https://github.com/bunny-mod/Bunny) - easy to manage and update, nice plugins
+- **Discord Client:** [Revenge](https://github.com/revenge-mod) - easy to manage and update, nice plugins. active fork of bunny, which is what i used before
 
 ## cloud/sync services
 spoilers: I don't trust the cloud
